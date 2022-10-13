@@ -4,7 +4,7 @@ GitHub combines a syntax for formatting text called **GitHub Flavored Markdown(G
 
 Markdown is an easy-to-read, easy-to-write syntax for formatting plain text. If you want to know more about Markdown, check my repository about [Markdowns](https://github.com/asrtghr/Getting-Started-Markdown)
 
-## Summary
+## Table of Contents
 
 <details><summary></summary>
 
