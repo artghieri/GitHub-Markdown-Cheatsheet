@@ -69,7 +69,7 @@ To create a heading, add number signs **`#`** in front of a word or phrase. The 
 > **You should also put blank lines before and after a heading for compatibility.**
 
 ## Alternative Syntax
-Since Markdown is a formatting plain text, we can use also use simple **HTML tags** to write in our **GitHub Document.
+Since Markdown is a formatting plain text, we can use also use simple **HTML tags** to write in our **GitHub Document**.
 | **&nbsp;&nbsp;&nbsp;Markdown Syntax&nbsp;&nbsp;&nbsp;**              |   **&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;HTML&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**                         |   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**Rendered&nbsp;&nbsp;Output**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;    |
 | :---------------------:            |   :---------------------:          |   :---------------------:   |
 | **`# Heading level 1`**	           |   **`<h1>Heading level 1</h1>`**   |   <h1>Heading level 1</h1>  |
@@ -138,7 +138,7 @@ Through styling text commands you can personalize your document according to you
 | Superscript            | `<sup> </sup>`      |                                         | `X<sup>2</sup>`  | X<sup>2</sup> |
 
 ## Emoji
-There are two ways to add emoji to your document: **copy and paste** the emoji into your **Mardown file**, or type **emoji shortcodes**.
+You can add emoji to your document by two different ways: **copy and paste** from a source into your file, or type **emoji shortcodes**.
 
 ### Copying and Pasting Emoji
 In most cases, you can simply copy an emoji from a source and paste it into your document. Many **Markdown** applications will automatically display the emoji in the **Markdown-formatted text**.
@@ -277,7 +277,7 @@ Now you can see backticks inside a fenced code block.
 > **To display triple backticks in a fenced code block, wrap them inside quadruple backticks.**
 
 ## Syntax Highlighting 
-Fenced code blocks are part of the Markdown spec, but syntax highlighting isn't. However, many renderers -- like **Github's** and **Markdown Here** -- support syntax highlighting.**To see the complete list, and how to write the language names, see the [highlight.js](https://highlightjs.org/static/demo/) demo page.**
+Fenced code blocks are part of the Markdown spec, but syntax highlighting isn't. However, many renderers -- like **Github's** and **Markdown Here** -- support syntax highlighting. **To see the complete list, and how to write the language names, see the [highlight.js](https://highlightjs.org/static/demo/) demo page.**
 
  **You can add an optional language identifier to enable syntax highlighting in your fenced code block.**
 
@@ -314,7 +314,7 @@ No language indicated, so no syntax highlighting.
 ```
 
 ## Symbols 
-**Markdown** doesn’t provide special syntax for symbols. However, in most cases, you can **copy and paste** whatever symbol you want to use into your document.**Here’s a partial list of HTML entities for symbols:**
+**Markdown** doesn’t provide special syntax for symbols. However, in most cases, you can **copy and paste** whatever symbol you want to use into your document. **Here’s a partial list of HTML entities for symbols:**
 
 |**Description**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|**Entity Name**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;| **Rendered Output**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  |
 | :----                  | :----            | :----          |
