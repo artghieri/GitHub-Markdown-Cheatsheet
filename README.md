@@ -336,7 +336,7 @@ No language indicated, so no syntax highlighting.
 > **If you want to see more examples, check the [w3schools page](https://www.w3schools.com/html/html_symbols.asp) for reference.**
 
 ## Collapsed Section
-You can streamline your Markdown by creating a collapsed section with the `<details>` tag. You can temporarily obscure sections of your **Markdown** by creating a collapsed section that the reader can choose to expand.
+You can streamline your **Markdown** by creating a collapsed section with `<details>` and `<sumary>` tags.
 
 **Any Markdown within the** `<details>` **block will be collapsed until the reader clicks to expand the details.**
 
