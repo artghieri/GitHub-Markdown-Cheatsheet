@@ -327,6 +327,8 @@ puts markdown.to_html
 > [!IMPORTANT]
 > **If there's no language indicated, the output will be as showned in the previous topic.**
 
+<br>
+
 ## Warnings
 Warnings are a Markdown extensions used to highlight critical information. They are shown with differents colors and icons to indicate the content importance.
 
@@ -377,6 +379,8 @@ Warnings are a Markdown extensions used to highlight critical information. They 
 | Up  Arow               | `&uarr;`         | &uarr;         |
 | Right Arrow            | `&rarr;`         | &rarr;         |
 | Down Arrow             | `&darr;`         | &darr;         | 
+
+<br>
 
 > **Note**
 > **If you want to see more examples, check the [w3schools page](https://www.w3schools.com/html/html_symbols.asp) for reference.**
