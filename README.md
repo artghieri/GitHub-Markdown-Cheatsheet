@@ -155,6 +155,8 @@ Some **Markdown** applications allow you to insert emoji by typing **emoji short
 - Go to the Market :heavy_check_mark:
 - Take a walk with my dog :x:
 
+<br>
+
 > [!NOTE]
 > **You can use** [this list of emoji shortcodes](https://gist.github.com/rxaviers/7360908) **for more reference.**
 
