@@ -140,12 +140,8 @@ Through styling text commands you can personalize your document according to you
 ## Emoji
 **You can add emoji to your document by two different ways: *copy and paste* from a source into your file, or type *Emoji Shortcodes* - `:EMOJICODE:`.**
 
-<br>
-
 ### Copying and Pasting Emoji
 In most cases, *you can simply copy an `emoji` from a source and paste it into your document*. Many **Markdown** applications will automatically display the `emoji` in the **Markdown-Formatted Text**. 😄
-
-<br>
 
 ### Using Emoji Shortcodes
 Some **Markdown** applications allow you to insert emoji by typing **emoji shortcodes**. These, **begin and end with a colon and include the name of an emoji.**
@@ -192,6 +188,8 @@ $$\lim_{x\to 0}{\frac{e^x-1}{2x}}
 
 $$\lim_{x\to 0}{\frac{e^x-1}{2x}} \overset{\left[\frac{0}{0}\right]}{\underset{\mathrm{H}}{=}} \lim_{x\to 0}{\frac{e^x}{2}}={\frac{1}{2}}$$
 
+<br>
+
 ### Writing dollar signs in line with and within mathematical expressions
 To display a dollar sign as a character in the same line as a mathematical expression, you need to escape the non-delimiter `$` to ensure the line renders correctly.
 ```
@@ -204,73 +202,61 @@ Within a math expression, add a \ symbol before the explicit $. (\$)
 <br>
 
 ## Blockquotes
-Whenever you feel the necessity to quote some important information to your document or simply add some references *blockquote* can come very in hand.
+Whenever you feel the necessity to quote some important information to your document or simply add some references, *blockquote* can come very in hand.
 
-
-To create a *blockquote* on your document, add a `>`in front of a paragraph.
+To create a *blockquote* on your document, add a `>` in front of a paragraph.
 ```
 > *Life is like a box of chocolates. You never know what you’re going to get.* , ***Forest Gump***
 ```
-
-**The rendered output looks like this:**
-
 > *Life is like a box of chocolates. You never know what you’re going to get.* , ***Forest Gump.***
 
-<br>
+#
 
 ### Blockquotes with Multiple Paragraphs
-Blockquotes can contain multiple paragraphs. Add a `>` on the blank lines between the paragraphs.
+*Blockquotes* can contain multiple paragraphs of information. To agroup a amount of information in one *blockquote*, add a `breakline` after each paragraph, or simply use a `blank line` between them.
 ```
 > You're late, Gandalf!.
 >
 > A wizard is never late, nor is he early. He arrives precisely when he means to.
 ```
-
-**The rendered output looks like this:**
-
 > You're late, Gandalf!.
 >
 > A wizard is never late, nor is he early. He arrives precisely when he means to.
 
-<br>
+#
 
 ### Nested Blockquotes
-Blockquotes can be nested. Add a `>>` in front of the paragraph you want to nest.
+*Blockquotes* can be nested. Add a `>>` in front of the paragraph you want to nest.
 ```
 > You're late, Gandalf!.
 >
 >> A wizard is never late, nor is he early. He arrives precisely when he means to.
 ```
-
-**The rendered output looks like this:**
-
 > You're late, Gandalf!.
 >
 >> A wizard is never late, nor is he early. He arrives precisely when he means to.
+
+#
+
+### Blockquotes with Other Elements
+*Blockquotes* can contain other ***Markdown formatted elements***. Not **all** elements can be used — you’ll need to experiment to see which ones work.
+```
+> ## This is looking great!
+>  *Everything* is going according to **plan**. :+1:
+```
+> ## This is looking great!
+>  *Everything* is going according to **plan**. :+1:
 
 <br>
 
-### Blockquotes with Other Elements
-Blockquotes can contain other **Markdown** formatted elements. Not all elements can be used — you’ll need to experiment to see which ones work.
-```
-> ## This is looking great!
->
->  *Everything* is going according to **plan**. :+1:
-```
-
-**The rendered output looks like this:**
-
-> ## This is looking great!
->
->  *Everything* is going according to **plan**. :+1:
-
 ## Hiding content with comments
-You can tell **GitHub** to hide content from the rendered **Markdown** by placing the content in an **HTML** comment.
+You can tell **GitHub** to hide content from the rendered **Markdown** by placing the content in an ***HTML** comment**.
 ```
 <!-- This content will not appear in the rendered Markdown !-->
 ```
+
 ## Horizontal Rules
-To create a horizontal rule, use three or more **asterisks** , **dashes** or **underscores** on a line by themselves.
+To create a ***horizontal rule***, use at least three **`asterisks`** , **`dashes`** or **`underscores`** on a line by themselves.
 ```
 ***
 
@@ -280,22 +266,27 @@ ___
 ```
 ___
 
-## Fenced Code Blocks 
-You can create **fenced code** blocks by placing **triple backticks** ` ``` ` before and after the code block. It's commonly recommended placing a blank line before and after code blocks to make the raw formatting easier to read.
 
-```python
-def helloWorld():
-   print("Hello, World!")
+## Fenced Code Blocks 
+You can create ***fenced code*** blocks by placing **triple backticks** - ` ``` ` - before and after the code block. It's commonly recommended placing a blank line before and after code blocks to make the raw formatting easier to read.
+
+```
+This is a paragraph inside of a Fenced Code Blocks.
 ```
 
+<br>
+
+> [!IMPORTANT]
+> **To display triple backticks in a fenced code block, wrap them inside quadruple backticks.**
+
+`````
 ````
 ```
 Now you can see backticks inside a fenced code block. 
 ```
 ````
+`````
 
-> **Note**
-> **To display triple backticks in a fenced code block, wrap them inside quadruple backticks.**
 
 ## Syntax Highlighting 
 Fenced code blocks are part of the Markdown spec, but syntax highlighting isn't. However, many renderers -- like **Github's** and **Markdown Here** -- support syntax highlighting. **To see the complete list, and how to write the language names, see the [highlight.js](https://highlightjs.org/static/demo/) demo page.**
@@ -316,6 +307,8 @@ void helloWorld(){
 }
 ```
 
+<br>
+
 ````
 ```ruby
 require 'redcarpet'
@@ -330,9 +323,9 @@ markdown = Redcarpet.new("Hello World!")
 puts markdown.to_html
 ```
 
-``` 
-No language indicated, so no syntax highlighting. 
-```
+> [!IMPORTANT]
+> **If there's no language indicated, the output will be as showned in the previous topic.**
+
 
 ## Symbols 
 **Markdown** doesn’t provide special syntax for symbols. However, in most cases, you can **copy and paste** whatever symbol you want to use into your document. **Here’s a partial list of HTML entities for symbols:**
