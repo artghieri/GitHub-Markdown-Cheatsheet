@@ -547,6 +547,8 @@ You can also use words, to fit your writing style more closely[^note].
 ## Lists
 There are a few ways to create a *list* in **GitHub Markdown** that can adapt to your specific use.
 
+# 
+
 ### Ordered Lists
 To create an *ordered list*, add line items with numbers followed by periods.
 
@@ -561,7 +563,7 @@ The numbers don’t have to be in numerical order, but the list should start wit
 1. *2010\. A great year!*
 1. > I love 80's songs.
 
-<br>
+# 
 
 ### Unordered Lists
 To create an unordered list, add **dashes** `-`, **asterisks** `*`, or **plus signs** `+` in front of line items.
@@ -574,7 +576,7 @@ To create an unordered list, add **dashes** `-`, **asterisks** `*`, or **plus si
 - *2010\. A great year!*
 - > I love 80's songs.
 
-<br>
+# 
 
 ### Nested Lists
 You can create a nested list by indenting one or more list items below another item. 
