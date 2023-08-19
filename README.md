@@ -155,12 +155,8 @@ Some **Markdown** applications allow you to insert emoji by typing **emoji short
 - Go to the Market :heavy_check_mark:
 - Take a walk with my dog :x:
 
-<br>
-
 > [!NOTE]
 > **You can use** [this list of emoji shortcodes](https://gist.github.com/rxaviers/7360908) **for more reference.**
-
-<br>
 
 ## TeX Mathematical Formulae
 To enable clear communication of mathematical expressions, GitHub supports LaTeX formatted math within Markdown. For more information, see [LaTeX/Mathematics](https://en.wikibooks.org/wiki/LaTeX/Mathematics) in Wikibooks.
@@ -329,10 +325,8 @@ puts markdown.to_html
 > [!IMPORTANT]
 > **If there's no language indicated, the output will be as showned in the previous topic.**
 
-<br>
-
 ## Warnings
-Warnings are a Markdown extensions used to highlight critical information. They are shown with differents colors and icons to indicate the content importance.
+Warnings are Markdown extensions used to highlight critical information. They are shown with differents colors and icons to indicate the content importance.
 
 #### There are three available types of warnings.
 
@@ -361,33 +355,29 @@ Warnings are a Markdown extensions used to highlight critical information. They 
 > [!WARNING]
 > Critical content demanding immediate user attention due to potential risks.
 
-<br>
-
 ## Symbols 
 **Markdown** doesn’t provide special syntax for symbols. However, in most cases, you can **copy and paste** whatever symbol you want to use into your document. **Here’s a partial list of HTML entities for symbols:**
 
 |**Description**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|**Entity Name**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;| **Rendered Output**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  |
-| :----                  | :----            | :----          |
-| Copyright              | `&copy;`         | &copy;         |
-| Registered trademark   | `&reg;`          | &reg;          |
-| Trademark              | `&trade;`        | &trade;        |
-| Euro                   | `&euro;`         | &euro;         |
-| Cent                   | `&cent;`         | &cent;         |
-| Pound                  | `&pound;`        | &pound;        |
-| Yen                    | `&yen;`          | &yen;          |
-| Degree                 | `&#176;`         | &#176;         |
-| Pi                     | `&#960;`         | &#960;         |
-| Left Arrow             | `&larr;`         | &larr;         |
-| Up  Arow               | `&uarr;`         | &uarr;         |
-| Right Arrow            | `&rarr;`         | &rarr;         |
-| Down Arrow             | `&darr;`         | &darr;         | 
+| :----                         | :----            | :----          |
+| **`Copyright`**               | `&copy;`         | &copy;         |
+| **`Registered trademark`**    | `&reg;`          | &reg;          |
+| **`Trademark`**               | `&trade;`        | &trade;        |
+| **`Euro`**                    | `&euro;`         | &euro;         |
+| **`Cent`**                    | `&cent;`         | &cent;         |
+| **`Pound`**                   | `&pound;`        | &pound;        |
+| **`Yen`**                     | `&yen;`          | &yen;          |
+| **`Degree`**                  | `&#176;`         | &#176;         |
+| **`Pi`**                      | `&#960;`         | &#960;         |
+| **`Left Arrow`**              | `&larr;`         | &larr;         |
+| **`Up Arow`**                 | `&uarr;`         | &uarr;         |
+| **`Right Arrow`**             | `&rarr;`         | &rarr;         |
+| **`Down Arrow`**              | `&darr;`         | &darr;         | 
 
 <br>
 
 > **Note**
 > **If you want to see more examples, check the [w3schools page](https://www.w3schools.com/html/html_symbols.asp) for reference.**
-
-<br>
 
 ## Collapsed Section
 You can streamline your **Markdown** by creating a collapsed section with `<details>` and `<sumary>` tags.
@@ -537,11 +527,9 @@ endsolid
 > **This topic is a reference to the original content: ["Creating diagrams."](https://docs.github.com/en/get-started/writing-on-github/working-with-advanced-formatting/creating-diagrams)**
     
 ## Footnotes
-**Footnotes** allow you to add notes and references without cluttering the body of the document. Readers can click the link to jump to the content of the footnote at the bottom of the page.
+*Footnotes* allows you to add **notes** and **references** without cluttering the body of the document. Readers can click the link to jump to the content of the footnote at the bottom of the page.
 
-To create a footnote reference, add a **caret and an identifier inside brackets** `[^identifier]`. **Identifiers can be numbers or words, but they can’t contain spaces or tabs.**
-
-Identifiers only correlate the footnote reference with the footnote itself — in the output, footnotes are numbered sequentially.
+To create a *footnote* reference, add a **caret and an identifier inside brackets** - `[^identifier]`. **Identifiers can be numbers or words, but they can’t contain spaces or tabs.**
 
 ```
 Here is a simple footnote[^1].
@@ -554,6 +542,8 @@ You can also use words, to fit your writing style more closely[^note].
 [^2]: Every new line should be prefixed with 2 spaces. 
 [^note]: Named footnotes allow easier identification and linking.  
 ```
+> ![IMPORTANT]
+> **Identifiers only correlate the footnote reference with the footnote itself — in the output, footnotes are numbered sequentially.**
 
 ## Lists
 There are a few ways to create a list in **GitHub Markdown** that can adapt to your specific use.
@@ -574,6 +564,10 @@ The numbers don’t have to be in numerical order, but the list should start wit
 1. *2010\. A great year!*
 1. > I love 80's songs.
 
+<br>
+
+---
+
 ### Unordered Lists
 To create an unordered list, add **dashes** `-`, **asterisks** `*`, or **plus signs** `+` in front of line items.
 ```
@@ -586,6 +580,8 @@ To create an unordered list, add **dashes** `-`, **asterisks** `*`, or **plus si
 - I was born in 2000.
 - *2010\. A great year!*
 - > I love 80's songs.
+ 
+---
 
 ### Nested Lists
 You can create a nested list by indenting one or more list items below another item. 
