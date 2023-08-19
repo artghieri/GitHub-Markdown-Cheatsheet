@@ -101,7 +101,7 @@ You can also use the **HTML Tag** `<p> </p>` to create a paragraph in your docum
 | Don't put tabs or spaces in front of your paragraphs.             |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;This can result in unexpected formatting problems. |
 
 > [!WARNING]
-> **Unless the paragraph is in a list, don’t indent paragraphs with spaces or tabs.**
+> Unless the paragraph is in a list, don’t indent paragraphs with spaces or tabs.
 
 ## Line Breaks
 To create a *line break* in your document, you can do that by simply using the **HTML Tag** `<br>`, or end a line with `two more spaces`.  
@@ -542,7 +542,7 @@ You can also use words, to fit your writing style more closely[^note].
 [^note]: Named footnotes allow easier identification and linking.  
 ```
 > [!IMPORTANT]
-> Identifiers only correlate the footnote reference with the footnote itself — in the output, footnotes are numbered sequentially.
+> Identifiers only correlate the footnote reference with the footnote itself.
 
 ## Lists
 There are a few ways to create a *list* in **GitHub Markdown** that can adapt to your specific use.
