@@ -64,7 +64,7 @@ To create a heading, add number signs **`#`** in front of a word or phrase. The 
 ###### Heading Level 6
 ```
 > [!NOTE]
-> **Always put a space between the number signs and the heading name.**
+> Always put a space between the number signs and the heading name.
 
 ## Alternative Syntax
 Since Markdown is a formatting plain text, we can use also use simple **HTML Tags** to write in our **GitHub Document**.
@@ -91,8 +91,8 @@ You can also use the **HTML Tag** `<p> </p>` to create a paragraph in your docum
 <p>I think I'll use it to format all of my documents from now on.</p>
 ```
 
->[!NOTE]
-> **In this case it's not necessary to separate blocks of text with a blank line.**
+> [!NOTE]
+> In this case it's not necessary to separate blocks of text with a blank line.
 
 <h3 align = "center"> A Quick Reminder </h3>
 
@@ -156,7 +156,7 @@ Some **Markdown** applications allow you to insert emoji by typing **emoji short
 - Take a walk with my dog :x:
 
 > [!NOTE]
-> **You can use** [this list of emoji shortcodes](https://gist.github.com/rxaviers/7360908) **for more reference.**
+> Check *[this list of emoji shortcodes](https://gist.github.com/rxaviers/7360908)* for more reference.
 
 ## TeX Mathematical Formulae
 To enable clear communication of mathematical expressions, GitHub supports LaTeX formatted math within Markdown. For more information, see [LaTeX/Mathematics](https://en.wikibooks.org/wiki/LaTeX/Mathematics) in Wikibooks.
@@ -196,7 +196,7 @@ Within a math expression, add a \ symbol before the explicit $. (\$)
 ```
 
 > [!IMPORTANT]
-> **The beginning and ending dollar signs ($) are the delimiters for the TeX Markup.**
+> The beginning and ending dollar signs ($) are the delimiters for the TeX Markup.
 
 <br>
 
@@ -284,7 +284,7 @@ Now you can see backticks inside a fenced code block.
 `````
 
 > [!IMPORTANT]
-> **To display triple backticks in a fenced code block, wrap them inside quadruple backticks.**
+> To display triple backticks in a fenced code block, wrap them inside quadruple backticks.
 
 
 ## Syntax Highlighting 
@@ -363,8 +363,8 @@ Warnings are **Markdown** extensions used to highlight critical information. The
 
 <br>
 
-> **Note**
-> **For more examples, check the *[w3schools page](https://www.w3schools.com/html/html_symbols.asp)* for reference.**
+> [!NOTE]
+> Check *[w3schools page](https://www.w3schools.com/html/html_symbols.asp)* for more reference.
 
 ## Collapsed Section
 You can streamline your **Markdown** by creating a collapsed section with `<details>` and `<sumary>` tags.
@@ -528,7 +528,7 @@ endsolid
 ## Footnotes
 *Footnotes* allows you to add **notes** and **references** without cluttering the body of the document. Readers can click the link to jump to the content of the footnote at the bottom of the page.
 
-To create a *footnote* reference, add a **caret and an identifier inside brackets** - `[^identifier]`. **Identifiers can be numbers or words, but they can’t contain spaces or tabs.**
+To create a *footnote* reference, add a caret and an identifier inside brackets - `[^identifier]`. **Identifiers** can be **numbers** or **words**, but they **can’t** contain **spaces** or **tabs**.
 
 ```
 Here is a simple footnote[^1].
