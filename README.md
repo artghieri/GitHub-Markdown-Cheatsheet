@@ -1,8 +1,8 @@
 <h1 align="center">GitHub Markdown Cheatsheet</h1>
 
-GitHub combines a syntax for formatting text called **GitHub Flavored Markdown(GFM)** with a few unique writing features.
+### GitHub combines a syntax for formatting text called **GitHub Flavored Markdown(GFM)** with a few unique writing features.
 
-Markdown is an easy-to-read, easy-to-write syntax for formatting plain text. If you want to know more about Markdown, check my repository about [Markdowns](https://github.com/asrtghr/Getting-Started-Markdown)
+### Markdown is an easy-to-read, easy-to-write syntax for formatting plain text. If you want to know more about Markdown, check my repository about [Markdowns](https://github.com/asrtghr/Getting-Started-Markdown)
 
 ## Table of Contents
 
@@ -53,7 +53,7 @@ Markdown is an easy-to-read, easy-to-write syntax for formatting plain text. If 
 ---
 
 ## Headings
-To create a heading, add number signs **`#`** in front of a word or phrase. The number of number signs you use should correspond to the heading level. For example, to create a heading level three **`<h3>`** , use three number signs (e.g., **`### My Header`**).
+To create a heading, add number signs **`#`** in front of a word or phrase. The number of number signs you use should correspond to the heading level. For example, to create a **heading level three**, - **`<h3>`** **or** `###` - use three number signs **(e.g., `### My Header`).**
 ```
 # Heading Level 1
 ## Heading Level 2
@@ -62,14 +62,11 @@ To create a heading, add number signs **`#`** in front of a word or phrase. The 
 ##### Heading Level 5
 ###### Heading Level 6
 ```
-> **Note**
+> [!NOTE]
 > **Always put a space between the number signs and the heading name.**
 
-> **Note**
-> **You should also put blank lines before and after a heading for compatibility.**
-
 ## Alternative Syntax
-Since Markdown is a formatting plain text, we can use also use simple **HTML tags** to write in our **GitHub Document**.
+Since Markdown is a formatting plain text, we can use also use simple **HTML Tags** to write in our **GitHub Document**.
 | **&nbsp;&nbsp;&nbsp;Markdown Syntax&nbsp;&nbsp;&nbsp;**              |   **&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;HTML&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**                         |   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**Rendered&nbsp;&nbsp;Output**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;    |
 | :---------------------:            |   :---------------------:          |   :---------------------:   |
 | **`# Heading level 1`**	           |   **`<h1>Heading level 1</h1>`**   |   <h1>Heading level 1</h1>  |
@@ -78,8 +75,6 @@ Since Markdown is a formatting plain text, we can use also use simple **HTML tag
 | **`#### Heading level 4`**	       |   **`<h4>Heading level 4</h4>`**   |   <h4>Heading level 4</h4>  |
 | **`##### Heading level 5`**	       |   **`<h5>Heading level 5</h5>`**   |   <h5>Heading level 5</h5>  |
 | **`###### Heading level 6`**	     |    **`<h6>Heading level 6</h6>`**   |   <h6>Heading level 6</h6>  |
-| **Heading level 1 ===============**|   **`<h1>Heading level 1</h1>`**   |   <h1>Heading level 1</h1>  |
-| **&nbsp;&nbsp;&nbsp;&nbsp;Heading level 2 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;---------------**|	  **`<h2>Heading level 2</h2>`**   |   <h2>Heading level 2</h2>  |
 
 ## Paragraphs
 To create a paragraph in your document, use a blank line to separate blocks of text.
@@ -88,22 +83,27 @@ I really like using Markdown.
 
 I think I'll use it to format all of my documents from now on.
 ```
-You can also use the **HTML** tag `<p> </p>` to create a paragraph in your document.
+
+You can also use the **HTML Tag** `<p> </p>` to create a paragraph in your document.
 ```
 <p>I really like using Markdown.</p>
 <p>I think I'll use it to format all of my documents from now on.</p>
 ```
-In this case it's not necessary to separate blocks of text with a blank line.
+
+>[!NOTE]
+> **In this case it's not necessary to separate blocks of text with a blank line.**
+
+<h3 align = "center"> A Quick Reminder </h3>
 
 | :heavy_check_mark: Do This&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;| :x: Don't Do This&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; |
 | :----                                                             | :----                                                       |
 | Don't put tabs or spaces in front of your paragraphs.             |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;This can result in unexpected formatting problems. |
 
-> **Warning**
+> [!WARNING]
 > **Unless the paragraph is in a list, don’t indent paragraphs with spaces or tabs.**
 
 ## Line Breaks
-To create a line break in your document, you can simple use the **HTML** tag `<br>`, or end a line with `two more spaces`.  
+To create a *line break* in your document, you can do that by simply using the **HTML Tag** `<br>`, or end a line with `two more spaces`.  
 ```
 This is the first line of your document  <-- two spaces 
 And this is the second line of your document
@@ -114,7 +114,7 @@ And this is the second line of your document
 ```
 
 ### Line Break Best Pratices
-You can use two or more spaces (commonly referred to as *"trailing whitespace"*) for line breaks in nearly every **Markdown application**, but it’s hard to see trailing whitespace in an editor, and many people accidentally or intentionally put two spaces after every sentence. For this reason, you may want to use something other than trailing whitespace for line breaks.
+You can use two or more spaces (commonly referred to as *"trailing whitespace"*) for line breaks in nearly every **Markdown application**, but it’s hard to see *trailing whitespace* in an editor, and many people accidentally or intentionally put two spaces after every sentence. For this reason, you may want to use something other than trailing whitespace for line breaks.
 
 Other topic commonly speaked is the use of backslash `\` at the end of line. You can get in trouble using that because **not all Markdown applications support this, so it isn’t a great option from a compatibility perspective.**
 
@@ -127,24 +127,28 @@ Other topic commonly speaked is the use of backslash `\` at the end of line. You
 Through styling text commands you can personalize your document according to you own taste. You can indicate emphasis with **bold**, **italic**, **strikethrough**, **subscript**, or **superscript** text in comment fields.
 
 
-| Style                  | Syntax              | Keyboard Shortcut                                     | Example                     | Output          |  
-| :-------------:        | :-------------:     | :-------------:                                       | :-------------:             | :-------------: |
-| Bold                   | `** **`             | `Command` + `B` (Mac) or `Ctrl` + `B` (Windows/Linux) | `**This is bold text**`     | **This is bold text**        |
-| Italic                 | `* *` or `_ _`      | `Command` + `I` (Mac) or `Ctrl` + `I` (Windows/Linux) | `*This text is italicized*` | *This text is italicized*   |
-| Strikethrough          | `~~ ~~`             |                                                       | `~~This was mistaken text~~` | ~~This was mistaken text~~ |
-| Bold and nested italic | `** **` and <br> `__ __` | | `**This text is _extremely_ important**`       | **This text is _extremely_ important**|
-| All bold and italic    | `*** ***`           | | `***All this text is important***`                  | ***All this text is important***      |
-| Subscript              | `<sub> </sub>`      |                                         | H`<sub>2</sub>`O    | H<sub>2</sub>O   |
-| Superscript            | `<sup> </sup>`      |                                         | `X<sup>2</sup>`  | X<sup>2</sup> |
+| Style                  | Syntax                   | Keyboard Shortcut                                      | Example                                   | Output          |  
+| :-------------:        | :-------------:          | :-------------:                                        | :-------------:                           | :-------------: |
+| Bold                   | `** **`                  | `Command` + `B` (Mac) or `Ctrl` + `B` (Windows/Linux)  | `**This is bold text**`                   | **This is bold text**        |
+| Italic                 | `* *` or `_ _`           | `Command` + `I` (Mac) or `Ctrl` + `I` (Windows/Linux)  | `*This text is italicized*`               | *This text is italicized*   |
+| Strikethrough          | `~~ ~~`                  |  `None`                                                | `~~This was mistaken text~~`              | ~~This was mistaken text~~ |
+| Bold and nested italic | `** **` and <br> `__ __` |  `None`                                                | `**This text is _extremely_ important**`  | **This text is _extremely_ important**|
+| All bold and italic    | `*** ***`                |  `None`                                                | `***All this text is important***`        | ***All this text is important***      |
+| Subscript              | `<sub> </sub>`           |  `None`                                                | `H<sub>2</sub>O`                          | H<sub>2</sub>O   |
+| Superscript            | `<sup> </sup>`           |  `None`                                                | `X<sup>2</sup>`                           | X<sup>2</sup> |
 
 ## Emoji
-You can add emoji to your document by two different ways: **copy and paste** from a source into your file, or type **emoji shortcodes**.
+**You can add emoji to your document by two different ways: *copy and paste* from a source into your file, or type *Emoji Shortcodes* - `:EMOJICODE:`.**
+
+<br>
 
 ### Copying and Pasting Emoji
-In most cases, you can simply copy an emoji from a source and paste it into your document. Many **Markdown** applications will automatically display the emoji in the **Markdown-formatted text**.
+In most cases, *you can simply copy an `emoji` from a source and paste it into your document*. Many **Markdown** applications will automatically display the `emoji` in the **Markdown-Formatted Text**. 😄
+
+<br>
 
 ### Using Emoji Shortcodes
-Some Markdown applications allow you to insert emoji by typing **emoji shortcodes**. These begin and end with a colon and include the name of an emoji.
+Some **Markdown** applications allow you to insert emoji by typing **emoji shortcodes**. These, **begin and end with a colon and include the name of an emoji.**
 ```
 - Go to the gym 8:30 AM :heavy_check_mark:
 - Go to the Market :heavy_check_mark:
@@ -154,7 +158,7 @@ Some Markdown applications allow you to insert emoji by typing **emoji shortcode
 - Go to the Market :heavy_check_mark:
 - Take a walk with my dog :x:
 
-> **Note**
+> [!NOTE]
 > **You can use** [this list of emoji shortcodes](https://gist.github.com/rxaviers/7360908) **for more reference.**
 
 ## TeX Mathematical Formulae
@@ -162,12 +166,16 @@ To enable clear communication of mathematical expressions, GitHub supports LaTeX
 
 GitHub's math rendering capability uses MathJax; an open source, JavaScript-based display engine. MathJax supports a wide range of [LaTeX](https://pt.wikipedia.org/wiki/LaTeX) macros, and several useful accessibility extensions. For more information, see the [MathJax documentation](https://docs.mathjax.org/en/latest/input/tex/index.html#tex-and-latex-support).
 
+<br>
+
 ### Writing inline expressions
 To include a math expression inline with your text, **delimit the expression with a dollar symbol** `$`.
 ```
 This sentence uses `$` delimiters to show math inline:  $f(x)=(x+a)(x+b^2)$
 ```
 This sentence uses `$` delimiters to show math inline:  $f(x)=(x+a)(x+b^2)$
+
+<br>
 
 ### Writing expressions as blocks
 To add a math expression as a block, start a new line and **delimit the expression with two dollar symbols** `$$`.
@@ -188,21 +196,26 @@ To display a dollar sign as a character in the same line as a mathematical expre
 Within a math expression, add a \ symbol before the explicit $. (\$)
 ```
 
-> **Note**
-> **The beginning and ending dollar signs ($) are the delimiters for the TeX markup.**
+> [!IMPORTANT]
+> **The beginning and ending dollar signs ($) are the delimiters for the TeX Markup.**
 
 ## Blockquotes
-To create a blockquote, add a > in front of a paragraph.
+Whenever you feel the necessity to quote some important information to your document or simply add some references *blockquote* can come very in hand.
+
+
+To create a *blockquote* on your document, add a `>`in front of a paragraph.
 ```
 > *Life is like a box of chocolates. You never know what you’re going to get.* , ***Forest Gump***
 ```
 
 **The rendered output looks like this:**
 
-> *Life is like a box of chocolates. You never know what you’re going to get.* , ***Forest Gump***
+> *Life is like a box of chocolates. You never know what you’re going to get.* , ***Forest Gump.***
+
+<br>
 
 ### Blockquotes with Multiple Paragraphs
-Blockquotes can contain multiple paragraphs. Add a > on the blank lines between the paragraphs.
+Blockquotes can contain multiple paragraphs. Add a `>` on the blank lines between the paragraphs.
 ```
 > You're late, Gandalf!.
 >
@@ -214,9 +227,11 @@ Blockquotes can contain multiple paragraphs. Add a > on the blank lines between 
 > You're late, Gandalf!.
 >
 > A wizard is never late, nor is he early. He arrives precisely when he means to.
+
+<br>
 
 ### Nested Blockquotes
-Blockquotes can be nested. Add a >> in front of the paragraph you want to nest.
+Blockquotes can be nested. Add a `>>` in front of the paragraph you want to nest.
 ```
 > You're late, Gandalf!.
 >
@@ -228,6 +243,8 @@ Blockquotes can be nested. Add a >> in front of the paragraph you want to nest.
 > You're late, Gandalf!.
 >
 >> A wizard is never late, nor is he early. He arrives precisely when he means to.
+
+<br>
 
 ### Blockquotes with Other Elements
 Blockquotes can contain other **Markdown** formatted elements. Not all elements can be used — you’ll need to experiment to see which ones work.
