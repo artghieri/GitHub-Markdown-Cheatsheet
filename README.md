@@ -26,6 +26,7 @@
 1. [Horizontal Rules](#horizontal-rules)
 1. [Fenced Code blocks](#fenced-code-blocks)
 1. [Syntax Highlighting](#syntax-highlighting)
+1. [Warnings](#warnings)
 1. [Symbols](#symbols)
 1. [Collapsed Section](#collapsed-section)
 1. [Diagrams](#diagrams)
@@ -276,9 +277,6 @@ This is a paragraph inside of a Fenced Code Blocks.
 
 <br>
 
-> [!IMPORTANT]
-> **To display triple backticks in a fenced code block, wrap them inside quadruple backticks.**
-
 `````
 ````
 ```
@@ -286,6 +284,9 @@ Now you can see backticks inside a fenced code block.
 ```
 ````
 `````
+
+> [!IMPORTANT]
+> **To display triple backticks in a fenced code block, wrap them inside quadruple backticks.**
 
 
 ## Syntax Highlighting 
@@ -326,6 +327,32 @@ puts markdown.to_html
 > [!IMPORTANT]
 > **If there's no language indicated, the output will be as showned in the previous topic.**
 
+## Warnings
+Warnings are a Markdown extensions used to highlight critical information. They are shown with differents colors and icons to indicate the content importance.
+
+#### There are three available types of warnings.
+
+```
+> [!NOTE]
+> Highlights information that users should take into account, even when skimming.
+```
+> [!NOTE]
+> Highlights information that users should take into account, even when skimming.
+
+```
+> [!IMPORTANT]
+> Crucial information necessary for users to succeed.
+```
+> [!IMPORTANT]
+> Crucial information necessary for users to succeed.
+
+```
+> [!WARNING]
+> Critical content demanding immediate user attention due to potential risks.
+```
+> [!WARNING]
+> Critical content demanding immediate user attention due to potential risks.
+
 
 ## Symbols 
 **Markdown** doesn’t provide special syntax for symbols. However, in most cases, you can **copy and paste** whatever symbol you want to use into your document. **Here’s a partial list of HTML entities for symbols:**
@@ -348,6 +375,8 @@ puts markdown.to_html
 
 > **Note**
 > **If you want to see more examples, check the [w3schools page](https://www.w3schools.com/html/html_symbols.asp) for reference.**
+
+<br>
 
 ## Collapsed Section
 You can streamline your **Markdown** by creating a collapsed section with `<details>` and `<sumary>` tags.
