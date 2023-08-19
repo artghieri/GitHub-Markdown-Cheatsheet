@@ -520,10 +520,10 @@ solid cube_corner
 endsolid
 ```  
     
-> **Note**
+> [!NOTE]
 > **For more information on working with `.geojson` , `.topojson` and `.stl` files, see ["Working with non-code files."](https://docs.github.com/en/repositories/working-with-files/using-files/working-with-non-code-files#mapping-geojson-files-on-github)**
 
-> **Note**
+> [!NOTE]
 > **This topic is a reference to the original content: ["Creating diagrams."](https://docs.github.com/en/get-started/writing-on-github/working-with-advanced-formatting/creating-diagrams)**
     
 ## Footnotes
@@ -542,7 +542,7 @@ You can also use words, to fit your writing style more closely[^note].
 [^2]: Every new line should be prefixed with 2 spaces. 
 [^note]: Named footnotes allow easier identification and linking.  
 ```
-> ![IMPORTANT]
+> [!IMPORTANT]
 > **Identifiers only correlate the footnote reference with the footnote itself — in the output, footnotes are numbered sequentially.**
 
 ## Lists
@@ -566,7 +566,7 @@ The numbers don’t have to be in numerical order, but the list should start wit
 
 <br>
 
----
+# 
 
 ### Unordered Lists
 To create an unordered list, add **dashes** `-`, **asterisks** `*`, or **plus signs** `+` in front of line items.
@@ -581,7 +581,7 @@ To create an unordered list, add **dashes** `-`, **asterisks** `*`, or **plus si
 - *2010\. A great year!*
 - > I love 80's songs.
  
----
+#
 
 ### Nested Lists
 You can create a nested list by indenting one or more list items below another item. 
