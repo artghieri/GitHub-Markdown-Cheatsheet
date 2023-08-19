@@ -267,7 +267,7 @@ ___
 
 
 ## Fenced Code Blocks 
-You can create ***fenced code*** blocks by placing **triple backticks** - ` ``` ` - before and after the code block. It's commonly recommended placing a blank line before and after code blocks to make the raw formatting easier to read.
+You can create ***fenced code*** blocks by placing **triple backticks** ` ``` `  before and after the code block. It's commonly recommended placing a blank line before and after code blocks to make the raw formatting easier to read.
 
 ```
 This is a paragraph inside of a Fenced Code Blocks.
@@ -288,45 +288,32 @@ Now you can see backticks inside a fenced code block.
 
 
 ## Syntax Highlighting 
-Fenced code blocks are part of the Markdown spec, but syntax highlighting isn't. However, many renderers -- like **Github's** and **Markdown Here** -- support syntax highlighting. **To see the complete list, and how to write the language names, see the [highlight.js](https://highlightjs.org/static/demo/) demo page.**
+Fenced code blocks are part of the **Markdown** spec, but *syntax highlighting* isn't. However, many renderers - like ***Github's*** and ***Markdown Here*** - support *syntax highlighting*. To see the complete list, and how to write the language names, see the *[highlight.js](https://highlightjs.org/static/demo/)* demo page.
+
+```
+function test() {
+  console.log("notice the blank line before this function?");
+}
+```
 
  **You can add an optional language identifier to enable syntax highlighting in your fenced code block.**
 
 ````
 ```C
-void helloWorld(){
+void helloworld(){
    printf("Hello World");
 }
 ```
 ```` 
 
 ```C
-void helloWorld(){
+void helloworld(){
    printf("Hello World");
 }
 ```
 
-<br>
-
-````
-```ruby
-require 'redcarpet'
-markdown = Redcarpet.new("Hello World!")
-puts markdown.to_html
-```
-````
-
-```ruby
-require 'redcarpet'
-markdown = Redcarpet.new("Hello World!")
-puts markdown.to_html
-```
-
-> [!IMPORTANT]
-> **If there's no language indicated, the output will be as showned in the previous topic.**
-
 ## Warnings
-Warnings are Markdown extensions used to highlight critical information. They are shown with differents colors and icons to indicate the content importance.
+Warnings are **Markdown** extensions used to highlight critical information. They are shown with differents colors and icons to indicate the content importance.
 
 #### There are three available types of warnings.
 
@@ -377,20 +364,32 @@ Warnings are Markdown extensions used to highlight critical information. They ar
 <br>
 
 > **Note**
-> **If you want to see more examples, check the [w3schools page](https://www.w3schools.com/html/html_symbols.asp) for reference.**
+> **For more examples, check the *[w3schools page](https://www.w3schools.com/html/html_symbols.asp)* for reference.**
 
 ## Collapsed Section
 You can streamline your **Markdown** by creating a collapsed section with `<details>` and `<sumary>` tags.
 
-**Any Markdown within the** `<details>` **block will be collapsed until the reader clicks to expand the details.**
+Any **Markdown** within the** `<details>` **block will be collapsed until the reader clicks to expand the details.
 
+On `<details>` block, use the tag `<summary>` to readers know what is inside of it.
+
+````
+<details>
+
+<summary>Tips for collapsed sections</summary>
+
+### You can add a header
+
+You can add text within a collapsed section. 
+
+You can add an image or a code block, too.
+
+```ruby
+   puts "Hello World"
 ```
-<details><summary>CLICK ME</summary>
-
-#### We can hide anything, even code!
 
 </details>
-```
+````
 
 ## Diagrams
 You can create diagrams in **Markdown** using three different syntaxes: **mermaid ,  geoJSON  and  topoJSON, and  ASCII STL**. Diagram rendering is available in **GitHub Issues**, **GitHub Discussions, pull requests, wikis, and Markdown files**.
@@ -521,10 +520,10 @@ endsolid
 ```  
     
 > [!NOTE]
-> **For more information on working with `.geojson` , `.topojson` and `.stl` files, see ["Working with non-code files."](https://docs.github.com/en/repositories/working-with-files/using-files/working-with-non-code-files#mapping-geojson-files-on-github)**
+> For future reference about `.geojson` , `.topojson` and `.stl` files, check *["Working with non-code files."](https://docs.github.com/en/repositories/working-with-files/using-files/working-with-non-code-files#mapping-geojson-files-on-github)*
 
 > [!NOTE]
-> **This topic is a reference to the original content: ["Creating diagrams."](https://docs.github.com/en/get-started/writing-on-github/working-with-advanced-formatting/creating-diagrams)**
+> This topic is a reference to the original content: *["Creating diagrams."](https://docs.github.com/en/get-started/writing-on-github/working-with-advanced-formatting/creating-diagrams)*
     
 ## Footnotes
 *Footnotes* allows you to add **notes** and **references** without cluttering the body of the document. Readers can click the link to jump to the content of the footnote at the bottom of the page.
@@ -543,45 +542,39 @@ You can also use words, to fit your writing style more closely[^note].
 [^note]: Named footnotes allow easier identification and linking.  
 ```
 > [!IMPORTANT]
-> **Identifiers only correlate the footnote reference with the footnote itself — in the output, footnotes are numbered sequentially.**
+> Identifiers only correlate the footnote reference with the footnote itself — in the output, footnotes are numbered sequentially.
 
 ## Lists
-There are a few ways to create a list in **GitHub Markdown** that can adapt to your specific use.
+There are a few ways to create a *list* in **GitHub Markdown** that can adapt to your specific use.
 
 ### Ordered Lists
-To create an ordered list, add line items with numbers followed by periods. 
+To create an *ordered list*, add line items with numbers followed by periods.
 
 The numbers don’t have to be in numerical order, but the list should start with the number one.
 
 ```
-1. First Item
-1. Second Item
-1. Third Item
+1. I was born in 2000.
+1. *2010\. A great year!*
+1. > I love 80's songs.
 ```
-**The rendered output looks like this:**
-
 1. I was born in 2000.
 1. *2010\. A great year!*
 1. > I love 80's songs.
 
 <br>
 
-# 
-
 ### Unordered Lists
 To create an unordered list, add **dashes** `-`, **asterisks** `*`, or **plus signs** `+` in front of line items.
 ```
-- First Item
-- Second Item
-- Third Item
-```
-**The rendered output looks like this:**
-
 - I was born in 2000.
 - *2010\. A great year!*
 - > I love 80's songs.
- 
-#
+```
+- I was born in 2000.
+- *2010\. A great year!*
+- > I love 80's songs.
+
+<br>
 
 ### Nested Lists
 You can create a nested list by indenting one or more list items below another item. 
@@ -604,19 +597,17 @@ Type space characters in front of your nested list item, **until the list marker
 * Second Item
 ```
 
-> **Note**
-> **It's possible to use emphasis with any type of list.**
+<br>
 
 ### Task Lists
-To create a task list, type **square brackets** `[ ]` before list itens. **To check a task**, do `[x]`.
+To create a *task list*, type **square brackets** `[ ]` before list itens. **To check a task**, do `[x]`.
 ```
 - [x] Wake up 7:00 AM 
 - [ ] \(Optional) Go to Gym 8:30 AM
 ```
-**The rendered output looks like this:**
+- [x] Wake up 7:00 AM 
+- [ ] \(Optional) Go to Gym
 
-- [x] Wake up 7:00 AM 
-- [ ] \(Optional) Go to Gym 8:30 AM
 
 ## Tables
 You can create tables with pipes `|` and hyphens `-`. Hyphens are used to create each column's header, while pipes separate each column. You must include a blank line before your table in order for it to correctly render.
