@@ -612,14 +612,14 @@ To create a *task list*, type **square brackets** `[ ]` before list itens. To **
       
 <br>
 
-If the description of a task list item starts with parenthesis, you will need to use the `\` symbol before the description.
+If the description of a task list item starts with parentheses, you will need to use the `\` symbol before the description.
 
 ```
 - [ ] \(Optional) Open a followup issue
 ```
 
 > [!NOTE]  
-> For more reference, check the *[About task lists](https://docs.github.com/en/get-started/writing-on-github/working-with-advanced-formatting/about-task-lists)*.
+> For more reference, check *[About task lists](https://docs.github.com/en/get-started/writing-on-github/working-with-advanced-formatting/about-task-lists)*.
 
 ## Tables
 You can create tables with pipes `|` and hyphens `-`. Hyphens are used to create each column's header, while pipes separate each column. You must include a blank line before your table in order for it to correctly render.
@@ -638,8 +638,6 @@ You can align text in the columns to the left, right, or center by adding a colo
 |  Content Cell   |  Content Cell   |  Content Cell   |
 |  Content Cell   |  Content Cell   |  Content Cell   |
 ```
-**The rendered output looks like this:**
-
 |  Left-aligned  |  Center-aligned  |  Right-aligned  |
 |  :---          |  :---:           |  ---:           |
 |  Header        |  Title           |  Here's this    |
