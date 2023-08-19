@@ -36,7 +36,7 @@
 1. [FootNotes](#footnotes)
 1. [Lists](#lists)
    1. [Nested Lists](#nested-lists)
-   1. [Task Lists](#task-lists)
+1. [Task Lists](#task-lists)
 1. [Tables](#tables)
    1. [Adding Titles](#adding-titles)
    1. [Escaping Pipe Characters in Tables](#escaping-pipe-characters-in-tables)
@@ -547,8 +547,6 @@ You can also use words, to fit your writing style more closely[^note].
 ## Lists
 There are a few ways to create a *list* in **GitHub Markdown** that can adapt to your specific use.
 
-# 
-
 ### Ordered Lists
 To create an *ordered list*, add line items with numbers followed by periods.
 
@@ -579,9 +577,11 @@ To create an unordered list, add **dashes** `-`, **asterisks** `*`, or **plus si
 # 
 
 ### Nested Lists
-You can create a nested list by indenting one or more list items below another item. 
+**You can create a nested list by indenting one or more list items below another item.** 
 
-Type space characters in front of your nested list item, **until the list marker character `-` or `*` lies directly below the first character of the text in the item above it.** The same procedure will be necessary if you want yo create a orderned nested list.
+Type space characters in front of your nested list item, **until the list marker character `-` or `*` lies directly below the first character of the text in the item above it.** 
+
+The same procedure will be necessary if you want yo create a orderned nested list.
 
 ### Ordered Nested List
 ```
@@ -599,17 +599,27 @@ Type space characters in front of your nested list item, **until the list marker
 * Second Item
 ```
 
+## Task Lists
+To create a *task list*, type **square brackets** `[ ]` before list itens. To **check** a task, do `[x]`.
+```
+- [x] #739
+- [ ] https://github.com/octo-org/octo-repo/issues/740
+- [ ] Add delight to the experience when all tasks are complete :tada:
+```
+- [x] #739
+- [ ] https://github.com/octo-org/octo-repo/issues/740
+- [ ] Add delight to the experience when all tasks are complete :tada:
+      
 <br>
 
-### Task Lists
-To create a *task list*, type **square brackets** `[ ]` before list itens. **To check a task**, do `[x]`.
-```
-- [x] Wake up 7:00 AM 
-- [ ] \(Optional) Go to Gym 8:30 AM
-```
-- [x] Wake up 7:00 AM 
-- [ ] \(Optional) Go to Gym
+If the description of a task list item starts with parenthesis, you will need to use the `\` symbol before the description.
 
+```
+- [ ] \(Optional) Open a followup issue
+```
+
+> [!NOTE]  
+> For more reference, check the *[About task lists](https://docs.github.com/en/get-started/writing-on-github/working-with-advanced-formatting/about-task-lists)*.
 
 ## Tables
 You can create tables with pipes `|` and hyphens `-`. Hyphens are used to create each column's header, while pipes separate each column. You must include a blank line before your table in order for it to correctly render.
