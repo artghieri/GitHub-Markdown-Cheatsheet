@@ -161,6 +161,8 @@ Some **Markdown** applications allow you to insert emoji by typing **emoji short
 > [!NOTE]
 > **You can use** [this list of emoji shortcodes](https://gist.github.com/rxaviers/7360908) **for more reference.**
 
+<br>
+
 ## TeX Mathematical Formulae
 To enable clear communication of mathematical expressions, GitHub supports LaTeX formatted math within Markdown. For more information, see [LaTeX/Mathematics](https://en.wikibooks.org/wiki/LaTeX/Mathematics) in Wikibooks.
 
@@ -198,6 +200,8 @@ Within a math expression, add a \ symbol before the explicit $. (\$)
 
 > [!IMPORTANT]
 > **The beginning and ending dollar signs ($) are the delimiters for the TeX Markup.**
+
+<br>
 
 ## Blockquotes
 Whenever you feel the necessity to quote some important information to your document or simply add some references *blockquote* can come very in hand.
