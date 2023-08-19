@@ -339,12 +339,16 @@ Warnings are a Markdown extensions used to highlight critical information. They 
 > [!NOTE]
 > Highlights information that users should take into account, even when skimming.
 
+<br>
+
 ```
 > [!IMPORTANT]
 > Crucial information necessary for users to succeed.
 ```
 > [!IMPORTANT]
 > Crucial information necessary for users to succeed.
+
+<br>
 
 ```
 > [!WARNING]
@@ -353,6 +357,7 @@ Warnings are a Markdown extensions used to highlight critical information. They 
 > [!WARNING]
 > Critical content demanding immediate user attention due to potential risks.
 
+<br>
 
 ## Symbols 
 **Markdown** doesn’t provide special syntax for symbols. However, in most cases, you can **copy and paste** whatever symbol you want to use into your document. **Here’s a partial list of HTML entities for symbols:**
