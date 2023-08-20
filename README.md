@@ -68,14 +68,16 @@ To create a heading, add number signs **`#`** in front of a word or phrase. The 
 
 ## Alternative Syntax
 Since Markdown is a formatting plain text, we can use also use simple **HTML Tags** to write in our **GitHub Document**.
-| **&nbsp;&nbsp;&nbsp;Markdown Syntax&nbsp;&nbsp;&nbsp;**              |   **&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;HTML&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**                         |   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**Rendered&nbsp;&nbsp;Output**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  |
-| :---------------------: |           |   :---------------------:          |   :---------------------:   |
+| **&nbsp;&nbsp;&nbsp;Markdown Syntax&nbsp;&nbsp;&nbsp;**              
+| **&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;HTML&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**                         
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**Rendered&nbsp;&nbsp;Output**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  |
+| :---------------------:             |   :---------------------:          |   :---------------------:   |
 | **`# Heading Level 1`**	           |   **`<h1>Heading level 1</h1>`**   |   <h1>Heading level 1</h1>  |
-| **`## Heading Level 2`**	         |   **`<h2>Heading level 2</h2>`**   |   <h2>Heading level 2</h2>  |
-| **`### Heading Level 3`**	         |   **`<h3>Heading level 3</h3>`**   |   <h3>Heading level 3</h3>  |
-| **`#### Heading Level 4`**	       |   **`<h4>Heading level 4</h4>`**   |   <h4>Heading level 4</h4>  |
-| **`##### Heading Level 5`**	       |   **`<h5>Heading level 5</h5>`**   |   <h5>Heading level 5</h5>  |
-| **`###### Heading Level 6`**	     |    **`<h6>Heading level 6</h6>`**   |   <h6>Heading level 6</h6>  |
+| **`## Heading Level 2`**	           |   **`<h2>Heading level 2</h2>`**   |   <h2>Heading level 2</h2>  |
+| **`### Heading Level 3`**	        |   **`<h3>Heading level 3</h3>`**   |   <h3>Heading level 3</h3>  |
+| **`#### Heading Level 4`**	        |   **`<h4>Heading level 4</h4>`**   |   <h4>Heading level 4</h4>  |
+| **`##### Heading Level 5`**	        |   **`<h5>Heading level 5</h5>`**   |   <h5>Heading level 5</h5>  |
+| **`###### Heading Level 6`**	     |   **`<h6>Heading level 6</h6>`**   |   <h6>Heading level 6</h6>  |
 
 ## Paragraphs
 To create a paragraph in your document, use a blank line to separate blocks of text.
